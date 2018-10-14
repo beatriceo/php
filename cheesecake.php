@@ -81,8 +81,8 @@ EOT;
     <title></title>
   </head>
   <body>
-    <h3><?php echo $title; ?></h3>
-    <?php echo $image; ?>
+    <pre><?php echo $title; ?></pre>
+    <pre><?php echo $image; ?></pre>
   </body>
   </head>
 </html>
