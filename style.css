@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Charmonman');
+
+#poopy {
+  width: 50vw;
+}
+
+.poopy-container {
+  display: flex;
+  justify-content: center;
+}
+
+.poem {
+  text-align: center;
+  font-family: 'Charmonman', cursive;
+}
+
+#shite {
+  color: brown;
+}
+
+#shite:hover {
+
+}
