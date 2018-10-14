@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Chromium {
 
     public static void main(String[] args) {
@@ -20,6 +22,16 @@ public class Chromium {
            continueCount++;
             
         }
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("\n" + "Is there anything you would like to add?" + "\n");
+		System.out.println("If so, say so now of forever hold your peace:");
+		
+		String userInput = scanner.readLine();
+		
+		System.out.println("\n" + "Interesting input...");
+		System.out.println("What did you mean by: '" + userInput + "'?");
   
     }
   
