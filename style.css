@@ -10,8 +10,11 @@
 }
 
 .poem {
+  display: flex;
   text-align: center;
   font-family: 'Charmonman', cursive;
+  font-size: 32px;
+  align-items: center;
 }
 
 #shite {
